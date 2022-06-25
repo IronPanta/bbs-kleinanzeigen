@@ -1,1 +1,1 @@
-FROM  gitpod-io/template-typescript-react
+FROM  FROM gitpod/workspace-mysql
