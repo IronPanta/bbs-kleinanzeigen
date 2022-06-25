@@ -1,0 +1,18 @@
+.search{
+    float: left;
+    width: 100%;
+}
+
+.searchContainer{
+    border: 3px solid white;
+    float: left;
+}
+
+.searchCategory{
+    border-right: 1px solid white;
+    float: left;
+}
+
+.searchWords{
+    float: left;
+}

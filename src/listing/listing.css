@@ -1,0 +1,26 @@
+.listing{
+    border: 1px solid white;
+    display: grid;
+    justify-content: start;
+    grid-template-areas:    'image name'
+                            'image condition'
+                            'image price'
+}
+
+.listingImage{
+    grid-area: image;
+    max-width: 6cm;
+    max-height: 4cm;
+}
+
+listingName{
+    grid-area: name;
+}
+
+.listingCondition{
+    grid-area: condition;
+}
+
+listingPrice{
+    grid-area: price;
+}
