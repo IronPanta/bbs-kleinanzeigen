@@ -1,24 +1,9 @@
 image:
   file: .gitpod.dockerfile
-
-
-additionalRepositories:
-  - url: https://github.com/IronPanta/bbs-kleinanzeigen-backend
-
+# Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - name: frontend
-    init: yarn
+  - init: yarn
     command: yarn start
-
-  - name: backend
-    before: |
-      cd ../bbs-kleinanzeigen-backend
-    init: |
-      npm install
-    command: |
-      npm install express -y
-      npm start
-
 ports:
   - port: 3000
     onOpen: open-preview
